@@ -1,1 +1,3 @@
-sysconf_require_packages nano openssh-server
+apt-get update
+apt-get upgrade
+sysconf_require_packages nano openssh-server mapserver-bin cgi-mapserver spawn-fcgi libgd2-xpm-dev nginx
